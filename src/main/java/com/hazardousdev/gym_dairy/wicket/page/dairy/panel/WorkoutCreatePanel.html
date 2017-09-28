@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
+<body>
+<wicket:panel>
+    <div class="form-container">
+        <div wicket:id="feedback"></div>
+        <form wicket:id="form">
+            <div class="form-row">
+                <input class="field-date" type="text" wicket:id="date"/>
+            </div>
+            <div class="form-row">
+                <div wicket:id="moves"></div>
+            </div>
+            <div class="form-row">
+                <textarea class="field-area" wicket:id="comment"></textarea>
+            </div>
+
+            <div class="buttons-row">
+                <a class="button" wicket:id="save"><wicket:message key="save"/></a><!--
+                --><a class="button" wicket:id="cancel"><wicket:message key="cancel"/></a>
+            </div>
+        </form>
+    </div>
+</wicket:panel>
+</body>
+</html>

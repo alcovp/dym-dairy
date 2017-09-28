@@ -1,0 +1,279 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #444d56;
+}
+
+input {
+    color: #444d56;
+}
+
+span.yui-skin-sam {
+    vertical-align: middle;
+}
+
+span.yui-skin-sam img {
+    content: url("images/calendar.png")
+}
+
+.right {
+    float: right;
+}
+
+.base-header {
+
+}
+
+.nav-bar {
+    width: 800px;
+    margin: 0 auto;
+    background: #fff9e8;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    font-weight: bold;
+}
+
+.nav-bar-item {
+    display: inline-block;
+    min-width: 100px;
+    height: 40px;
+}
+
+.nav-bar-item:hover a.nav-bar-link {
+    height: 37px;
+    border-bottom: 3px solid #4285f4;
+}
+
+.nav-bar-item-selected {
+    height: 37px;
+    border-bottom: 3px solid #4285f4;
+}
+
+.nav-bar-link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.nav-bar-link {
+    color: #4285f4;
+}
+
+.nav-bar-span {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+}
+
+.gym-page {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+}
+
+.gym-controls {
+    border-bottom: 1px solid #dedede;
+    padding: 4px;
+}
+
+.list-row {
+    margin: 10px 10px 0 10px;
+    padding: 0 0 10px 0;
+}
+
+.list-row:not(:last-child) {
+    border-bottom: 1px dashed #dedede;
+}
+
+.move-name {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.set {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.note {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.feature-common {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #077;
+}
+
+.feature-common2 {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #ffa100;
+}
+
+.note-name {
+    display: inline-block;
+    width: 200px;
+}
+
+.sets {
+    display: inline-block;
+    width: 570px;
+}
+
+.sets-container {
+    display: inline-block;
+    width: 400px;
+}
+
+.set-inputs {
+    display: inline-block;
+    background: #f2fbff;
+    height: 20px;
+    margin: 2px 0 2px 0;
+    vertical-align: top;
+}
+
+.set-input {
+    width: 35px;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 0 2px;
+    text-align: right;
+    vertical-align: top;
+    border-bottom: 2px solid #4285f4;
+    border-radius: 4px;
+    color: #4285f4;
+}
+
+.declarations-select {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    border: 1px solid #dedede;
+    padding: 4px;
+    color: #444d56;
+}
+
+.buttons-row {
+
+}
+
+.form-row {
+    margin-bottom: 5px;
+}
+
+.button {
+    background: #fff9e8;
+    color: #444d56;
+    text-decoration: none;
+    border: 1px solid #fff9e8;
+    display: inline-block;
+    min-width: 60px;
+    padding: 3px;
+    margin: 0 5px 0 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: #4285f4;
+}
+
+.button-plus {
+    background-image: url(images/plus.png);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    padding-left: 25px;
+    min-width: 40px;
+}
+
+.button-minus {
+    background-image: url(images/minus.png);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    padding-left: 25px;
+    min-width: 40px;
+}
+
+.button-equal {
+    background-image: url(images/equal.png);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    padding-left: 25px;
+    min-width: 40px;
+}
+
+.button-icon-only {
+    height: 20px;
+    width: 20px;
+    min-width: initial;
+    padding: 3px;
+}
+
+input.field-text {
+    border: 1px solid #dedede;
+    padding: 3px;
+    width: 300px;
+}
+
+input.field-date {
+    border: 1px solid #dedede;
+    padding: 3px;
+    width: 75px;
+}
+
+textarea.field-area {
+    border: 1px solid #dedede;
+    padding: 3px;
+    width: 300px;
+}
+
+.form-container {
+    padding: 10px;
+}
+
+.form-container input:hover,
+.form-container textarea:hover,
+.form-container select:hover {
+    border-color: #4285f4;
+}
+
+.move-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.move-description {
+    margin: 5px 0 0 40px;
+}
+
+.moves-list-container {
+    margin-bottom: 5px;
+}
+
+.move-row {
+    margin-bottom: 2px;
+}
+
+.floating-controls {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.floating-controls-container {
+    position: relative;
+}
+
+.floating-controls-container:hover .floating-controls {
+    display: block;
+}
