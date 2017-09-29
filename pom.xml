@@ -26,6 +26,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>gym-dairy-service</module>
+        <module>gym-dairy-ui</module>
     </modules>
     <name>Gym dairy</name>
     <description></description>
@@ -135,45 +136,8 @@
             <version>${jetty9.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.hazardousdev</groupId>
-            <artifactId>gym-dairy-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
     <build>
-        <resources>
-            <resource>
-                <filtering>false</filtering>
-                <directory>src/main/resources</directory>
-            </resource>
-            <resource>
-                <filtering>false</filtering>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**</include>
-                </includes>
-                <excludes>
-                    <exclude>**/*.java</exclude>
-                </excludes>
-            </resource>
-        </resources>
-        <testResources>
-            <testResource>
-                <filtering>false</filtering>
-                <directory>src/test/resources</directory>
-            </testResource>
-            <testResource>
-                <filtering>false</filtering>
-                <directory>src/test/java</directory>
-                <includes>
-                    <include>**</include>
-                </includes>
-                <excludes>
-                    <exclude>**/*.java</exclude>
-                </excludes>
-            </testResource>
-        </testResources>
         <plugins>
             <plugin>
                 <inherited>true</inherited>

@@ -1,6 +1,7 @@
-package com.hazardousdev;
+package com.hazardousdev.gym_dairy;
 
 import com.hazardousdev.gym_dairy.wicket.application.GymDairyApplication;
+import com.hazardousdev.gym_dairy.wicket.page.LoginPage;
 import com.hazardousdev.gym_dairy.wicket.page.home.HomePage;
 import org.apache.wicket.util.tester.WicketTester;
 import org.junit.Before;
@@ -23,6 +24,6 @@ public class TestHomePage {
         tester.startPage(HomePage.class);
 
         //assert rendered page class
-        tester.assertRenderedPage(HomePage.class);
+        tester.assertRenderedPage(LoginPage.class);
     }
 }

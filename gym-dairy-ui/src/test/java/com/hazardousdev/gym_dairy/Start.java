@@ -1,4 +1,4 @@
-package com.hazardousdev;
+package com.hazardousdev.gym_dairy;
 
 import org.eclipse.jetty.jmx.MBeanContainer;
 import org.eclipse.jetty.server.*;
@@ -35,7 +35,7 @@ public class Start {
 
         server.addConnector(http);
 
-        Resource keystore = Resource.newClassPathResource("/keystore");
+        Resource keystore = Resource.newClassPathResource("/test/resources/keystore");
         if (keystore != null && keystore.exists()) {
             // if a keystore for a SSL certificate is available, start a SSL
             // connector on port 8443.
